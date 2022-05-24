@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 560px;
+  width: 100%;
+  padding: 40px 0 75px;
+
+  .big-input {
+    max-width: 447px;
+    min-width: 103px;
+    width: 100%;
+  }
+
+  input, fieldset, select {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  input, label, p, select {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+  }
+
+  select {
+    cursor: pointer;
+  }
+
+  label, p {
+    color: #646C9A;
+  }
+
+  p {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+
+  input, select {
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    height: 29px;
+    padding: 7px 8px 7px 11px;
+  }
+
+  .form-header {
+    width: 100%;
+    padding-bottom: 35px;
+
+    label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .activation-condition-group {
+    width: 100%;
+
+    p {
+      padding-bottom: 35px;
+    }
+
+    label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+    }
+
+    .input-dates-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 447px;
+
+      input {
+        width: 150px;
+      }
+
+      input + input {
+        margin-left: 15px;
+      }
+    }
+
+    .radio1 {
+      width: 447px;
+      display: flex;
+      justify-content: space-between;
+
+      label {
+        padding-bottom: 0;
+      }
+
+      input {
+        margin-right: 8px;
+      }
+    }
+
+    .registration-period-dates {
+      label {
+        display: flex;
+        align-items: center;
+        width: 100%;
+      }
+    }
+
+    .event-set {
+      position: relative;
+      padding-left: 23px;
+
+      &:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 3px;
+        height: 74px;
+        background-color: #646C9A;
+      }
+
+      .text-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .label-wrapper {
+          width: 100%;
+        }
+
+        .text-inner-wrapper {
+          width: 447px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          input {
+            width: 225px;
+          }
+
+          label {
+            padding-bottom: 0;
+            justify-content: flex-end;
+
+            input {
+              margin-left: 20px;
+              width: 140px;
+            }
+          }
+        }
+      }
+    }
+
+    .event-set + .event-set {
+      margin-top: 37px;
+      margin-bottom: 42px;
+    }
+  }
+
+  .offer-terms-group {
+    width: 100%;
+    margin-bottom: 35px;
+
+    p {
+      margin-bottom: 23px;
+    }
+
+    label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 15px;
+    }
+  }
+
+  .submit-btn {
+    background-color: #5D78FF;
+    height: 29px;
+    width: 66px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      background-color: white;
+      border: 2px solid #5D78FF;
+      color: #5D78FF;
+    }
+  }
+}
