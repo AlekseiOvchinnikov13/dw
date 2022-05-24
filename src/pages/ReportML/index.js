@@ -8,7 +8,7 @@ const ReportML = () => {
       <h2 className='form-page__description'>Данные по отчету - с ml моделью</h2>
       <div className='form-page__content form-page__content-report'>
         <ReportHeader/>
-        <div className='report-box'>
+        <div className='report-box ml-report'>
           <p className='top-left-cell'>Рассылка</p>
           <p className='top-title-cell include-2'>Охват</p>
           <p className='top-title-cell include-5'>Целевая группа</p>

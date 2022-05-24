@@ -6,6 +6,22 @@ $CELL_BACKGROUND_COLOR_DARK: rgba(100, 108, 154, 0.5);
     padding-bottom: 20px;
   }
 
+  .ml-report {
+    grid-template-columns: 250px repeat(21, 150px);
+    grid-template-rows: 50px 120px;
+    grid-auto-rows: 70px;
+  }
+
+  .common-report {
+    grid-template-columns: repeat(18, 150px);
+    grid-template-rows: 70px;
+    grid-auto-rows: 140px;
+
+    .middle-title-cell {
+      text-align: center;
+    }
+  }
+
   .report-box {
     min-height: 60vh;
     display: grid;
@@ -13,9 +29,6 @@ $CELL_BACKGROUND_COLOR_DARK: rgba(100, 108, 154, 0.5);
     border: 1px solid #C4C4C4;
     border-radius: 5px;
     margin: 0 22px;
-    grid-template-columns: 250px repeat(21, 150px);
-    grid-template-rows: 50px 120px;
-    grid-auto-rows: 70px;
     overflow: auto;
 
     .bg-light {
