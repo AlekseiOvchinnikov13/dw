@@ -1,9 +1,11 @@
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Form from "./pages/Form";
-import Report from "./pages/Report";
+import ReportPage from "./pages/ReportPage";
 import FormPage from "./pages/FormPage";
 import Home from "./pages/Home";
+import ReportCommon from "./pages/ReportCommon";
+import ReportML from "./pages/ReportML";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
         <Switch>
           <Route path="/a-b-tests" component={FormPage}/>
           <Route path="/demo-constructor" component={Form}/>
-          <Route path="/report" component={Report}/>
+          <Route path="/report" component={ReportPage}/>
+          <Route path="/report-common" component={ReportCommon}/>
+          <Route path="/report-ml" component={ReportML}/>
           <Route path="/" component={Home}/>
         </Switch>
       </BrowserRouter>

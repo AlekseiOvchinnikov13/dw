@@ -1,0 +1,69 @@
+$CELL_BACKGROUND_COLOR: rgba(100, 108, 154, 0.25);
+$CELL_BACKGROUND_COLOR_DARK: rgba(100, 108, 154, 0.5);
+
+.form-page {
+  .form-page__content-report {
+    padding-bottom: 20px;
+  }
+
+  .report-box {
+    min-height: 60vh;
+    display: grid;
+
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    margin: 0 22px;
+    grid-template-columns: 250px repeat(21, 150px);
+    grid-template-rows: 50px 120px;
+    grid-auto-rows: 70px;
+    overflow: auto;
+
+    .bg-light {
+      background: $CELL_BACKGROUND_COLOR;
+    }
+
+    .bg-dark {
+      background: $CELL_BACKGROUND_COLOR_DARK;
+    }
+
+    .include-2 {
+      grid-column-start: span 2;
+    }
+
+    .include-5 {
+      grid-column-start: span 5;
+    }
+
+    .include-7 {
+      grid-column-start: span 7;
+    }
+
+    .top-left-cell,
+    .top-title-cell,
+    .middle-title-cell,
+    .bottom-summary-cell {
+      font-weight: 700;
+    }
+
+    .top-title-cell {
+      justify-self: stretch;
+      text-align: center;
+    }
+
+    .bottom-summary-left-cell,
+    .top-left-cell {
+      place-self: stretch;
+      text-align: center;
+    }
+
+    .top-left-cell {
+      grid-row-start: span 2;
+    }
+
+    p {
+      margin: 0;
+      padding: 10px;
+      border: 1px solid black;
+    }
+  }
+}

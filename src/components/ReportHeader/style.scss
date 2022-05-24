@@ -1,0 +1,55 @@
+.form-page__header-wrapper {
+  padding: 20px 20px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  input, label, button {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+  }
+
+  input {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .label-input-date {
+    input {
+      margin-left: 79px;
+    }
+
+    input + input {
+      margin: 0 30px 0 15px;
+    }
+  }
+
+  .label-input {
+    input {
+      margin: 0 30px 0 15px;
+    }
+  }
+
+  .settings-img {
+    margin-right: 28px;
+  }
+
+  .button-search {
+    width: 150px;
+    height: 30px;
+    background: #5D78FF;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      background: white;
+      border: 2px solid #5D78FF;
+      color: #5D78FF;
+    }
+  }
+}
