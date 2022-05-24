@@ -65,5 +65,11 @@ $CELL_BACKGROUND_COLOR_DARK: rgba(100, 108, 154, 0.5);
       padding: 10px;
       border: 1px solid black;
     }
+
+    p:not(.middle-title-cell, .top-title-cell, .top-left-cell, .bottom-summary-left-cell, .cell-start-group) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }

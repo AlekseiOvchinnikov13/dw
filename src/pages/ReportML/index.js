@@ -36,7 +36,7 @@ const ReportML = () => {
           <p className='middle-title-cell'>Итоговая прибыль от проведения рассылки, руб</p>
           <p className='middle-title-cell'>Выручка, руб</p>
           <p className='middle-title-cell'>Доля рассылки в выручке , %</p>
-          <p>Молочная продукция - случайный лес</p>
+          <p className='cell-start-group'>Молочная продукция - случайный лес</p>
           <p className='bg-dark'>1 000</p>
           <p className='bg-light'>100</p>
           <p className='bg-dark'>543</p>
@@ -58,7 +58,7 @@ const ReportML = () => {
           <p className='bg-dark'>-1 407 729 ₽</p>
           <p className='bg-light'>1 000 000</p>
           <p className='bg-dark'>10,9%</p>
-          <p>Мясная продукция - случайный лес</p>
+          <p className='cell-start-group'>Мясная продукция - случайный лес</p>
           <p className='bg-light'>1 000</p>
           <p>100</p>
           <p className='bg-light'>645</p>
@@ -80,7 +80,7 @@ const ReportML = () => {
           <p className='bg-light'>-733 240 ₽</p>
           <p>1 000 000</p>
           <p className='bg-light'>38,6%</p>
-          <p>Акция 1+1 - дерево решений</p>
+          <p className='cell-start-group'>Акция 1+1 - дерево решений</p>
           <p className='bg-dark'>1 000</p>
           <p className='bg-light'>100</p>
           <p className='bg-dark'>342</p>
@@ -102,7 +102,7 @@ const ReportML = () => {
           <p className='bg-dark'>-2 582 177 ₽</p>
           <p className='bg-light'>1 000 000</p>
           <p className='bg-dark'>-11,1%</p>
-          <p>Выдача карт - ml 1</p>
+          <p className='cell-start-group'>Выдача карт - ml 1</p>
           <p className='bg-light'>1 000</p>
           <p>100</p>
           <p className='bg-light'>872</p>
@@ -124,7 +124,7 @@ const ReportML = () => {
           <p className='bg-light'>-1 254 526 ₽</p>
           <p>1 000 000</p>
           <p className='bg-light'>19,7%</p>
-          <p>Масла категория - случайный лес</p>
+          <p className='cell-start-group'>Масла категория - случайный лес</p>
           <p className='bg-dark'>1 000</p>
           <p className='bg-light'>100</p>
           <p className='bg-dark'>721</p>
@@ -146,7 +146,7 @@ const ReportML = () => {
           <p className='bg-dark'>-2 399 934 ₽</p>
           <p className='bg-light'>1 000 000</p>
           <p className='bg-dark'>-25,0%</p>
-          <p>Молочная продукция - градиентный бустинг</p>
+          <p className='cell-start-group'>Молочная продукция - градиентный бустинг</p>
           <p className='bg-light'>1 000</p>
           <p>100</p>
           <p className='bg-light'>621</p>
