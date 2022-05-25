@@ -23,7 +23,7 @@ $CELL_BACKGROUND_COLOR_DARK: rgba(100, 108, 154, 0.5);
   }
 
   .report-box {
-    min-height: 60vh;
+    max-height: 60vh;
     display: grid;
 
     border: 1px solid #C4C4C4;
