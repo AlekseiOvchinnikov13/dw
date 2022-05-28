@@ -36,6 +36,10 @@ const FormPage = () => {
           <p className='grid-title'>Title</p>
           <p className='grid-title'>Status</p>
           <p className='grid-title'>Action</p>
+          <p className='grid-row cell-link'><NavLink to={'/demo-retail'}>Пример для розничной сети</NavLink>
+          </p>
+          <p className='grid-row'>Draft</p>
+          <p className='grid-row cell-svg'>{svgDelete}</p>
           <p className='grid-row cell-link'><NavLink to={'/demo-constructor'}>Пример конструктора предложений</NavLink>
           </p>
           <p className='grid-row'>Running</p>

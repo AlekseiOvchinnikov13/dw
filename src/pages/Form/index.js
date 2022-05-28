@@ -59,7 +59,7 @@ const Form = () => {
                 </div>
               </label>
             </fieldset>
-            <fieldset className='event-set'>
+            <fieldset className='event-set border-left-block'>
               <div className="text-wrapper">
                 <label htmlFor="event" className='label-wrapper'>
                   Event
@@ -82,7 +82,7 @@ const Form = () => {
                 </label>
               </fieldset>
             </fieldset>
-            <fieldset className='event-set'>
+            <fieldset className='event-set border-left-block'>
               <div className="text-wrapper">
                 <label htmlFor="event" className='label-wrapper'>
                   Event
@@ -125,7 +125,7 @@ const Form = () => {
               </select>
             </label>
           </fieldset>
-          <input type="submit" value="Save" className='submit-btn'/>
+          <input type="submit" value="Save" className='submit-btn btn-view'/>
         </form>
       </div>
     </div>
