@@ -7,6 +7,7 @@ const Home = () => {
     <nav className='navigation'>
       <NavLink to={'/a-b-tests'}>form</NavLink>
       <NavLink to={'/report'}>report</NavLink>
+      <NavLink to={'/contact-policy'}>contact policy</NavLink>
     </nav>
   )
 }

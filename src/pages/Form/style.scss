@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+.btn-view {
+  background-color: #5D78FF;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid transparent;
+
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background-color: white;
+    border: 2px solid #5D78FF;
+    color: #5D78FF;
+  }
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -46,6 +63,18 @@
     padding: 20px 0;
   }
 
+  .contact-policy-title {
+    color: #646C9A;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 38px;
+  }
+
+  .fw-bold {
+    font-weight: 700;
+  }
+
   input, select {
     border-radius: 5px;
     border: 1px solid #c4c4c4;
@@ -84,7 +113,9 @@
   .steps-to-activate-group,
   .required-parameters-group,
   .params-to-choose-from-group,
-  .offer-terms-group {
+  .offer-terms-group,
+  .contact-policy-audience-selection-group,
+  .contact-policy-audience-exclusion-group {
     width: 100%;
 
     p {
@@ -215,22 +246,49 @@
     }
   }
 
-  .btn-view {
-    background-color: #5D78FF;
-    border-radius: 5px;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    border: 2px solid transparent;
+  .contact-policy-audience-selection-group,
+  .contact-policy-audience-exclusion-group {
+    .group-title {
+      padding-bottom: 20px;
+    }
 
-    transition: all .3s ease-in-out;
+    .audience-set, .audience-exclusion-set {
+      .audience-bottom {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-    &:hover {
-      background-color: white;
-      border: 2px solid #5D78FF;
-      color: #5D78FF;
+        .text-wrapper {
+          label {
+            width: 100%;
+          }
+
+          .text-inner-wrapper {
+            width: 447px;
+
+            input {
+              width: 105px;
+            }
+
+            select {
+              width: 105px;
+              margin-left: 10px;
+              margin-right: 10px;
+            }
+
+            label + label {
+              select {
+                width: 140px;
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
     }
   }
+
 
   .add-audience-section,
   .add-required-param,
@@ -243,5 +301,91 @@
   .submit-btn {
     height: 29px;
     width: 66px;
+  }
+}
+
+.deviation-from-rules {
+  max-width: 870px;
+  width: 100%;
+  margin: 0 auto;
+
+  p {
+    color: #646C9A;
+    margin: 0;
+  }
+
+  .fw-bold {
+    font-weight: 700;
+  }
+
+  &__title {
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+
+  button {
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 5px;
+    width: 71px;
+    height: 29px;
+
+    transition: all .3s ease-in-out;
+  }
+
+  .confirm-btn {
+    background: #159809;
+    margin-right: 5px;
+
+    &:hover {
+      background: transparent;
+      border: 1px solid #159809;
+      color: #159809;
+    }
+  }
+
+  .reject-btn {
+    background: #980909;
+
+    &:hover {
+      background: transparent;
+      border: 1px solid #980909;
+      color: #980909;
+    }
+  }
+
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    gap: 25px;
+    place-items: center;
+    padding-bottom: 45px;
+
+    input, button, p {
+      font-size: 10px;
+    }
+  }
+
+  .summary-wrapper {
+    padding: 0 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .btn-select-all {
+      border: none;
+      background: transparent;
+      color: #646C9A;
+      width: unset;
+      height: unset;
+    }
+  }
+
+  .btn-wrapper {
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 75px;
   }
 }

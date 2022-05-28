@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import ReportCommon from "./pages/ReportCommon";
 import ReportML from "./pages/ReportML";
 import FormRetail from "./pages/FormRetail";
+import ContactPolicy from "./pages/ContactPolicy";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/a-b-tests" component={FormPage}/>
+          <Route path="/contact-policy" component={ContactPolicy}/>
           <Route path="/demo-retail" component={FormRetail}/>
           <Route path="/demo-constructor" component={Form}/>
           <Route path="/report" component={ReportPage}/>
