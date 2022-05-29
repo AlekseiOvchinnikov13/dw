@@ -3,7 +3,7 @@ import Chart2 from './images/chart2.png';
 import Chart3 from './images/chart3.png';
 import ReportHeader from "../../components/ReportHeader";
 
-const ReportCommon = () => {
+const ReportRegularCompanies = () => {
 
   return (
     <div className='form-page'>
@@ -15,7 +15,7 @@ const ReportCommon = () => {
           <img src={Chart2} alt="chart"/>
           <img src={Chart3} alt="chart"/>
         </div>
-        <div className='report-box common-report'>
+        <div className='report-box regular-companies-report common-report'>
           <p className='middle-title-cell'>Месяц</p>
           <p className='middle-title-cell'>Дата начала</p>
           <p className='middle-title-cell'>Дата окончания</p>
@@ -34,6 +34,7 @@ const ReportCommon = () => {
           <p className='middle-title-cell'>Заказы, шт</p>
           <p className='middle-title-cell'>Конверсия, %</p>
           <p className='middle-title-cell'>Выручка по заказам, руб</p>
+          <p className='middle-title-cell'>Списали баллы в течении 10 дней</p>
 
           <p className='text-cell bg-light'>Февраль</p>
           <p className='text-cell bg-dark'>17.02.2021</p>
@@ -53,6 +54,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>320</p>
           <p className='text-cell bg-light'>0,08%</p>
           <p className='text-cell bg-dark'>631 640</p>
+          <p className='text-cell bg-light'>10%</p>
 
           <p className='text-cell'>Февраль</p>
           <p className='text-cell bg-light'>17.02.2021</p>
@@ -72,6 +74,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>296</p>
           <p className='text-cell'>0,07%</p>
           <p className='text-cell bg-light'>601 509</p>
+          <p className='text-cell'>7,22%</p>
 
           <p className='text-cell bg-light'>Февраль</p>
           <p className='text-cell bg-dark'>19.02.2021</p>
@@ -91,6 +94,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>635</p>
           <p className='text-cell bg-light'>0,09%</p>
           <p className='text-cell bg-dark'>858 330</p>
+          <p className='text-cell bg-light'>8,89%</p>
 
           <p className='text-cell'>Февраль</p>
           <p className='text-cell bg-light'>21.02.2021</p>
@@ -110,6 +114,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>861</p>
           <p className='text-cell'>0,12%</p>
           <p className='text-cell bg-light'>977 574</p>
+          <p className='text-cell'>8,71%</p>
 
           <p className='text-cell bg-light'>Февраль</p>
           <p className='text-cell bg-dark'>25.02.2021</p>
@@ -129,6 +134,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>1 985</p>
           <p className='text-cell bg-light'>0,28%</p>
           <p className='text-cell bg-dark'>1 843 473</p>
+          <p className='text-cell bg-light'>12,85%</p>
 
           <p className='text-cell'>Февраль</p>
           <p className='text-cell bg-light'>26.02.2021</p>
@@ -148,6 +154,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>235</p>
           <p className='text-cell'>0,04%</p>
           <p className='text-cell bg-light'>326 040</p>
+          <p className='text-cell'>8,44%</p>
 
           <p className='text-cell bg-light'>Февраль</p>
           <p className='text-cell bg-dark'>28.02.2021</p>
@@ -167,6 +174,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>468</p>
           <p className='text-cell bg-light'>0,05%</p>
           <p className='text-cell bg-dark'>712 333</p>
+          <p className='text-cell bg-light'>10%</p>
 
           <p className='text-cell'>Март</p>
           <p className='text-cell bg-light'>02.03.2021</p>
@@ -186,6 +194,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>308</p>
           <p className='text-cell'>0,04%</p>
           <p className='text-cell bg-light'>546 325</p>
+          <p className='text-cell'>8,44%</p>
 
           <p className='text-cell bg-light'>Март</p>
           <p className='text-cell bg-dark'>04.03.2021</p>
@@ -205,6 +214,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>298</p>
           <p className='text-cell bg-light'>0,04%</p>
           <p className='text-cell bg-dark'>601 365</p>
+          <p className='text-cell bg-light'>7,32%</p>
 
           <p className='text-cell'>Март</p>
           <p className='text-cell bg-light'>06.03.2021</p>
@@ -224,6 +234,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>315</p>
           <p className='text-cell'>0,04%</p>
           <p className='text-cell bg-light'>643 851</p>
+          <p className='text-cell'>7,60%</p>
 
           <p className='text-cell bg-light'>Март</p>
           <p className='text-cell bg-dark'>10.03.2021</p>
@@ -243,6 +254,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>237</p>
           <p className='text-cell bg-light'>0,03%</p>
           <p className='text-cell bg-dark'>551 725</p>
+          <p className='text-cell bg-light'>4,25%</p>
 
           <p className='text-cell'>Март</p>
           <p className='text-cell bg-light'>11.03.2021</p>
@@ -262,6 +274,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>172</p>
           <p className='text-cell'>0,01%</p>
           <p className='text-cell bg-light'>435 892</p>
+          <p className='text-cell'>5,54%</p>
 
           <p className='text-cell bg-light'>Март</p>
           <p className='text-cell bg-dark'>13.03.2021</p>
@@ -281,6 +294,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>559</p>
           <p className='text-cell bg-light'>0,03%</p>
           <p className='text-cell bg-dark'>1 404 879</p>
+          <p className='text-cell bg-light'>3,63%</p>
 
           <p className='text-cell'>Март</p>
           <p className='text-cell bg-light'>17.03.2021</p>
@@ -300,6 +314,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>98</p>
           <p className='text-cell'>0,02%</p>
           <p className='text-cell bg-light'>282 813</p>
+          <p className='text-cell'>5,44%</p>
 
           <p className='text-cell bg-light'>Март</p>
           <p className='text-cell bg-dark'>17.03.2021</p>
@@ -319,6 +334,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>147</p>
           <p className='text-cell bg-light'>0,04%</p>
           <p className='text-cell bg-dark'>246 429</p>
+          <p className='text-cell bg-light'>7,10%</p>
 
           <p className='text-cell'>Март</p>
           <p className='text-cell bg-light'>18.03.2021</p>
@@ -338,6 +354,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>21</p>
           <p className='text-cell'>0,00%</p>
           <p className='text-cell bg-light'>43 135</p>
+          <p className='text-cell'>4,63%</p>
 
           <p className='text-cell bg-light'>Март</p>
           <p className='text-cell bg-dark'>18.03.2021</p>
@@ -357,6 +374,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>0</p>
           <p className='text-cell bg-light'>0,00%</p>
           <p className='text-cell bg-dark'>0</p>
+          <p className='text-cell bg-light'>5,64%</p>
 
           <p className='text-cell'>Март</p>
           <p className='text-cell bg-light'>18.03.2021</p>
@@ -376,6 +394,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>73</p>
           <p className='text-cell'>0,01%</p>
           <p className='text-cell bg-light'>90 667</p>
+          <p className='text-cell'>9,03%</p>
 
           <p className='text-cell bg-light'>Март</p>
           <p className='text-cell bg-dark'>20.03.2021</p>
@@ -395,6 +414,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>2 486</p>
           <p className='text-cell bg-light'>0,29%</p>
           <p className='text-cell bg-dark'>1 563 893</p>
+          <p className='text-cell bg-light'>3,92%</p>
 
           <p className='text-cell'>Март</p>
           <p className='text-cell bg-light'>21.03.2021</p>
@@ -414,6 +434,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>67</p>
           <p className='text-cell'>0,01%</p>
           <p className='text-cell bg-light'>132 157</p>
+          <p className='text-cell'>7,22%</p>
 
           <p className='text-cell bg-light'>Март</p>
           <p className='text-cell bg-dark'>23.03.2021</p>
@@ -433,6 +454,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>524</p>
           <p className='text-cell bg-light'>0,06%</p>
           <p className='text-cell bg-dark'>839 426</p>
+          <p className='text-cell bg-light'>8,89%</p>
 
           <p className='text-cell'>Март</p>
           <p className='text-cell bg-light'>25.03.2021</p>
@@ -452,10 +474,11 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>429</p>
           <p className='text-cell'>0,03%</p>
           <p className='text-cell bg-light'>463 418</p>
+          <p className='text-cell'>8,71%</p>
         </div>
       </div>
     </div>
   )
 }
 
-export default ReportCommon;
+export default ReportRegularCompanies;

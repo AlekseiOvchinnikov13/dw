@@ -35,16 +35,37 @@ const ReportPage = () => {
           <p className='grid-title'>Title</p>
           <p className='grid-title'>Status</p>
           <p className='grid-title'>Action</p>
+
           <p className='grid-row cell-link'>
             <NavLink to={'/report-common'}>Данные по отчету - общие данные</NavLink>
           </p>
           <p className='grid-row'>Done</p>
           <p className='grid-row cell-svg'>{svgDelete}</p>
+
           <p className='grid-row cell-link'>
             <NavLink to={'/report-ml'}>Данные по отчету - с ml моделью</NavLink>
           </p>
           <p className='grid-row'>Done</p>
           <p className='grid-row cell-svg'>{svgDelete}</p>
+
+          <p className='grid-row cell-link'>
+            <NavLink to={'/report-average-check'}>Данные по отчету - средний чек</NavLink>
+          </p>
+          <p className='grid-row'>Done</p>
+          <p className='grid-row cell-svg'>{svgDelete}</p>
+
+          <p className='grid-row cell-link'>
+            <NavLink to={'/report-cross-sale'}>Данные по отчету - cross sale</NavLink>
+          </p>
+          <p className='grid-row'>Done</p>
+          <p className='grid-row cell-svg'>{svgDelete}</p>
+
+          <p className='grid-row cell-link'>
+            <NavLink to={'/report-regular-companies'}>Данные по отчету - регулярные компании</NavLink>
+          </p>
+          <p className='grid-row'>Done</p>
+          <p className='grid-row cell-svg'>{svgDelete}</p>
+
         </div>
         <div className="form-page__bottom">
           <button className='double-arrow'>{svgDoubleLeftArrow}</button>

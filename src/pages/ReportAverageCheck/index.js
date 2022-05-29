@@ -15,7 +15,7 @@ const ReportCommon = () => {
           <img src={Chart2} alt="chart"/>
           <img src={Chart3} alt="chart"/>
         </div>
-        <div className='report-box common-report'>
+        <div className='report-box average-check-report common-report'>
           <p className='middle-title-cell'>Месяц</p>
           <p className='middle-title-cell'>Дата начала</p>
           <p className='middle-title-cell'>Дата окончания</p>
@@ -38,7 +38,7 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>Февраль</p>
           <p className='text-cell bg-dark'>17.02.2021</p>
           <p className='text-cell bg-light'>24.02.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>Push app</p>
           <p className='text-cell bg-dark'>вся активная база</p>
           <p className='text-cell bg-light'>399 687</p>
@@ -57,7 +57,7 @@ const ReportCommon = () => {
           <p className='text-cell'>Февраль</p>
           <p className='text-cell bg-light'>17.02.2021</p>
           <p className='text-cell'>24.02.2021</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>SMS</p>
           <p className='text-cell bg-light'>вся активная база</p>
           <p className='text-cell'>400 090</p>
@@ -74,9 +74,9 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>601 509</p>
 
           <p className='text-cell bg-light'>Февраль</p>
-          <p className='text-cell bg-dark'>19.02.2021</p>
-          <p className='text-cell bg-light'>28.02.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-dark'>17.02.2021</p>
+          <p className='text-cell bg-light'>24.02.20211</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>Push app</p>
           <p className='text-cell bg-dark'>вся активная база</p>
           <p className='text-cell bg-light'>707 566</p>
@@ -93,9 +93,9 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>858 330</p>
 
           <p className='text-cell'>Февраль</p>
-          <p className='text-cell bg-light'>21.02.2021</p>
+          <p className='text-cell bg-light'>17.02.2021</p>
           <p className='text-cell'>24.02.2021</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>Push app</p>
           <p className='text-cell bg-light'>вся активная база</p>
           <p className='text-cell'>707 197</p>
@@ -112,9 +112,9 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>977 574</p>
 
           <p className='text-cell bg-light'>Февраль</p>
-          <p className='text-cell bg-dark'>25.02.2021</p>
-          <p className='text-cell bg-light'>28.02.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-dark'>17.02.2021</p>
+          <p className='text-cell bg-light'>24.02.20211</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>Push app</p>
           <p className='text-cell bg-dark'>вся активная база</p>
           <p className='text-cell bg-light'>707 753</p>
@@ -131,9 +131,9 @@ const ReportCommon = () => {
           <p className='text-cell bg-dark'>1 843 473</p>
 
           <p className='text-cell'>Февраль</p>
-          <p className='text-cell bg-light'>26.02.2021</p>
-          <p className='text-cell'>02.03.2021</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-light'>17.02.2021</p>
+          <p className='text-cell'>24.02.2021</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>E-mail</p>
           <p className='text-cell bg-light'>вся активная база</p>
           <p className='text-cell'>649 246</p>
@@ -150,9 +150,9 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>326 040</p>
 
           <p className='text-cell bg-light'>Февраль</p>
-          <p className='text-cell bg-dark'>28.02.2021</p>
-          <p className='text-cell bg-light'>02.03.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-dark'>17.02.2021</p>
+          <p className='text-cell bg-light'>24.02.20211</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>E-mail</p>
           <p className='text-cell bg-dark'>вся активная база</p>
           <p className='text-cell bg-light'>715 052</p>
@@ -168,10 +168,10 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>0,05%</p>
           <p className='text-cell bg-dark'>712 333</p>
 
-          <p className='text-cell'>Март</p>
-          <p className='text-cell bg-light'>02.03.2021</p>
-          <p className='text-cell'>06.03.2021</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell'>Февраль</p>
+          <p className='text-cell bg-light'>17.02.2021</p>
+          <p className='text-cell'>24.02.2021</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>E-mail</p>
           <p className='text-cell bg-light'>вся активная база</p>
           <p className='text-cell'>713 897</p>
@@ -187,10 +187,10 @@ const ReportCommon = () => {
           <p className='text-cell'>0,04%</p>
           <p className='text-cell bg-light'>546 325</p>
 
-          <p className='text-cell bg-light'>Март</p>
-          <p className='text-cell bg-dark'>04.03.2021</p>
-          <p className='text-cell bg-light'>10.03.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-light'>Февраль</p>
+          <p className='text-cell bg-dark'>17.02.2021</p>
+          <p className='text-cell bg-light'>24.02.20211</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>E-mail</p>
           <p className='text-cell bg-dark'>вся активная база</p>
           <p className='text-cell bg-light'>712 754</p>
@@ -206,10 +206,10 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>0,04%</p>
           <p className='text-cell bg-dark'>601 365</p>
 
-          <p className='text-cell'>Март</p>
-          <p className='text-cell bg-light'>06.03.2021</p>
-          <p className='text-cell'>10.03.2021</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell'>Февраль</p>
+          <p className='text-cell bg-light'>17.02.2021</p>
+          <p className='text-cell'>24.02.2021</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>Push app</p>
           <p className='text-cell bg-light'>вся активная база</p>
           <p className='text-cell'>710 658</p>
@@ -225,10 +225,10 @@ const ReportCommon = () => {
           <p className='text-cell'>0,04%</p>
           <p className='text-cell bg-light'>643 851</p>
 
-          <p className='text-cell bg-light'>Март</p>
-          <p className='text-cell bg-dark'>10.03.2021</p>
-          <p className='text-cell bg-light'>11.03.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-light'>Февраль</p>
+          <p className='text-cell bg-dark'>17.02.2021</p>
+          <p className='text-cell bg-light'>24.02.20211</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>Push app</p>
           <p className='text-cell bg-dark'>вся активная база</p>
           <p className='text-cell bg-light'>708 160</p>
@@ -244,10 +244,10 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>0,03%</p>
           <p className='text-cell bg-dark'>551 725</p>
 
-          <p className='text-cell'>Март</p>
-          <p className='text-cell bg-light'>11.03.2021</p>
-          <p className='text-cell'>13.03.2021</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell'>Февраль</p>
+          <p className='text-cell bg-light'>17.02.2021</p>
+          <p className='text-cell'>24.02.2021</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>Push app</p>
           <p className='text-cell bg-light'>вся активная база</p>
           <p className='text-cell'>1 603 027</p>
@@ -263,10 +263,10 @@ const ReportCommon = () => {
           <p className='text-cell'>0,01%</p>
           <p className='text-cell bg-light'>435 892</p>
 
-          <p className='text-cell bg-light'>Март</p>
-          <p className='text-cell bg-dark'>13.03.2021</p>
-          <p className='text-cell bg-light'>16.03.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-light'>Февраль</p>
+          <p className='text-cell bg-dark'>17.02.2021</p>
+          <p className='text-cell bg-light'>24.02.20211</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>SMS</p>
           <p className='text-cell bg-dark'>вся активная база</p>
           <p className='text-cell bg-light'>1 670 424</p>
@@ -282,10 +282,10 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>0,03%</p>
           <p className='text-cell bg-dark'>1 404 879</p>
 
-          <p className='text-cell'>Март</p>
-          <p className='text-cell bg-light'>17.03.2021</p>
-          <p className='text-cell'>22.03.2021</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell'>Февраль</p>
+          <p className='text-cell bg-light'>17.02.2021</p>
+          <p className='text-cell'>24.02.2021</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>Push app</p>
           <p className='text-cell bg-light'>вся активная база, часть 1</p>
           <p className='text-cell'>406 751</p>
@@ -301,10 +301,10 @@ const ReportCommon = () => {
           <p className='text-cell'>0,02%</p>
           <p className='text-cell bg-light'>282 813</p>
 
-          <p className='text-cell bg-light'>Март</p>
-          <p className='text-cell bg-dark'>17.03.2021</p>
-          <p className='text-cell bg-light'>23.03.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-light'>Февраль</p>
+          <p className='text-cell bg-dark'>17.02.2021</p>
+          <p className='text-cell bg-light'>24.02.20211</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>Push app</p>
           <p className='text-cell bg-dark'>вся активная база, часть 2</p>
           <p className='text-cell bg-light'>406 938</p>
@@ -320,10 +320,10 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>0,04%</p>
           <p className='text-cell bg-dark'>246 429</p>
 
-          <p className='text-cell'>Март</p>
-          <p className='text-cell bg-light'>18.03.2021</p>
-          <p className='text-cell'>24.03.2021</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell'>Февраль</p>
+          <p className='text-cell bg-light'>17.02.2021</p>
+          <p className='text-cell'>24.02.2021</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>Push app</p>
           <p className='text-cell bg-light'>вся активная база</p>
           <p className='text-cell'>934 330</p>
@@ -339,10 +339,10 @@ const ReportCommon = () => {
           <p className='text-cell'>0,00%</p>
           <p className='text-cell bg-light'>43 135</p>
 
-          <p className='text-cell bg-light'>Март</p>
-          <p className='text-cell bg-dark'>18.03.2021</p>
-          <p className='text-cell bg-light'>31.03.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-light'>Февраль</p>
+          <p className='text-cell bg-dark'>17.02.2021</p>
+          <p className='text-cell bg-light'>24.02.20211</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>SMS</p>
           <p className='text-cell bg-dark'></p>
           <p className='text-cell bg-light'>450</p>
@@ -358,10 +358,10 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>0,00%</p>
           <p className='text-cell bg-dark'>0</p>
 
-          <p className='text-cell'>Март</p>
-          <p className='text-cell bg-light'>18.03.2021</p>
-          <p className='text-cell'>бессрочно</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell'>Февраль</p>
+          <p className='text-cell bg-light'>17.02.2021</p>
+          <p className='text-cell'>24.02.2021</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>SMS</p>
           <p className='text-cell bg-light'>вся активная база</p>
           <p className='text-cell'>798 483</p>
@@ -377,10 +377,10 @@ const ReportCommon = () => {
           <p className='text-cell'>0,01%</p>
           <p className='text-cell bg-light'>90 667</p>
 
-          <p className='text-cell bg-light'>Март</p>
-          <p className='text-cell bg-dark'>20.03.2021</p>
-          <p className='text-cell bg-light'>22.03.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-light'>Февраль</p>
+          <p className='text-cell bg-dark'>17.02.2021</p>
+          <p className='text-cell bg-light'>24.02.20211</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>SMS</p>
           <p className='text-cell bg-dark'>вся активная база</p>
           <p className='text-cell bg-light'>845 407</p>
@@ -396,10 +396,10 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>0,29%</p>
           <p className='text-cell bg-dark'>1 563 893</p>
 
-          <p className='text-cell'>Март</p>
-          <p className='text-cell bg-light'>21.03.2021</p>
-          <p className='text-cell'>бессрочно</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell'>Февраль</p>
+          <p className='text-cell bg-light'>17.02.2021</p>
+          <p className='text-cell'>24.02.2021</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>Push app</p>
           <p className='text-cell bg-light'>вся активная база</p>
           <p className='text-cell'>713 414</p>
@@ -415,10 +415,10 @@ const ReportCommon = () => {
           <p className='text-cell'>0,01%</p>
           <p className='text-cell bg-light'>132 157</p>
 
-          <p className='text-cell bg-light'>Март</p>
-          <p className='text-cell bg-dark'>23.03.2021</p>
-          <p className='text-cell bg-light'>31.03.2021</p>
-          <p className='text-cell bg-dark'>Напоминание о списании баллов</p>
+          <p className='text-cell bg-light'>Февраль</p>
+          <p className='text-cell bg-dark'>17.02.2021</p>
+          <p className='text-cell bg-light'>24.02.20211</p>
+          <p className='text-cell bg-dark'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell bg-light'>Push app</p>
           <p className='text-cell bg-dark'>вся активная база</p>
           <p className='text-cell bg-light'>826 137</p>
@@ -434,10 +434,10 @@ const ReportCommon = () => {
           <p className='text-cell bg-light'>0,06%</p>
           <p className='text-cell bg-dark'>839 426</p>
 
-          <p className='text-cell'>Март</p>
-          <p className='text-cell bg-light'>25.03.2021</p>
-          <p className='text-cell'>27.03.2021</p>
-          <p className='text-cell bg-light'>Напоминание о списании баллов</p>
+          <p className='text-cell'>Февраль</p>
+          <p className='text-cell bg-light'>17.02.2021</p>
+          <p className='text-cell'>24.02.2021</p>
+          <p className='text-cell bg-light'>Скидка 23% на фотокниги вариант 1</p>
           <p className='text-cell'>Push app</p>
           <p className='text-cell bg-light'>вся активная база</p>
           <p className='text-cell'>843 204</p>
