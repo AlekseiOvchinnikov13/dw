@@ -7,7 +7,7 @@ $CELL_BACKGROUND_COLOR_DARK: rgba(100, 108, 154, 0.5);
   }
 
   .report-box {
-    max-height: 60vh;
+    max-height: 70vh;
     display: grid;
 
     border: 1px solid #C4C4C4;
@@ -105,12 +105,35 @@ $CELL_BACKGROUND_COLOR_DARK: rgba(100, 108, 154, 0.5);
   }
 
   .common-report {
-    grid-template-columns: repeat(18, 150px);
+    grid-template-columns: repeat(3, 140px) 235px repeat(14, 140px);
     grid-template-rows: 70px;
-    grid-auto-rows: 140px;
+    grid-auto-rows: 75px;
 
     .middle-title-cell {
       text-align: center;
+
+      position: sticky;
+      top: 0;
+      background-color: white;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-right: 25px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 10px solid black;
+        cursor: pointer;
+      }
     }
   }
 }
