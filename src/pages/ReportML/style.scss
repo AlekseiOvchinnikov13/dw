@@ -124,7 +124,7 @@ $CELL_BACKGROUND_COLOR_DARK: rgba(100, 108, 154, 0.5);
   .common-report {
     grid-template-columns: repeat(3, 140px) 235px repeat(14, 140px);
     grid-template-rows: 70px;
-    grid-auto-rows: 75px;
+    grid-auto-rows: 80px;
 
     .middle-title-cell {
       text-align: center;
