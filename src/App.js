@@ -11,6 +11,9 @@ import ContactPolicy from "./pages/ContactPolicy";
 import ReportAverageCheck from "./pages/ReportAverageCheck";
 import ReportCrossSale from "./pages/ReportCrossSale";
 import ReportRegularCompanies from "./pages/ReportRegularCompanies";
+import ControlGroup from "./pages/ControlGroup";
+import ControlGroupGlobal from "./pages/ControlGroupGlobal";
+import ControlGroupSteps from "./pages/ControlGroupSteps";
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
           <Route path="/report-cross-sale" component={ReportCrossSale}/>
           <Route path="/report-regular-companies" component={ReportRegularCompanies}/>
           <Route path="/report-ml" component={ReportML}/>
+          <Route path="/control-group" component={ControlGroup}/>
+          <Route path="/control-group-global" component={ControlGroupGlobal}/>
+          <Route path="/control-group-steps" component={ControlGroupSteps}/>
           <Route path="/" component={Home}/>
         </Switch>
       </BrowserRouter>

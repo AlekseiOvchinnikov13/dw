@@ -115,8 +115,7 @@
   .params-to-choose-from-group,
   .offer-terms-group,
   .contact-policy-audience-selection-group,
-  .contact-policy-audience-exclusion-group,
-  .audience-segment-group {
+  .contact-policy-audience-exclusion-group {
     width: 100%;
 
     p {
@@ -207,9 +206,7 @@
 
   .audience-selection-group,
   .required-parameters-group,
-  .params-to-choose-from-group,
-  .activation-condition-group,
-  .audience-segment-group {
+  .params-to-choose-from-group {
     display: flex;
     flex-direction: column;
 
@@ -292,11 +289,6 @@
     }
   }
 
-  .audience-segment-group {
-    p {
-      padding-bottom: 20px;
-    }
-  }
 
   .add-audience-section,
   .add-required-param,
@@ -309,10 +301,6 @@
   .submit-btn {
     height: 29px;
     width: 66px;
-  }
-
-  .segment-btn {
-    width: 112px !important;
   }
 }
 
